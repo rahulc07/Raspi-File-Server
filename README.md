@@ -6,7 +6,7 @@ Think the desciption sums it up
 # Commands
 
 
-wget _____________ 
+wget https://raw.githubusercontent.com/xXTeraXx/Raspi-File-Server/master/samba.sh 
  
 chmod +x samba.sh
 
