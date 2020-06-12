@@ -11,3 +11,7 @@ wget https://raw.githubusercontent.com/xXTeraXx/Raspi-File-Server/master/samba.s
 chmod +x samba.sh
 
 sudo ./samba.sh
+
+# If You Get A Permisson Denied Error
+
+echo chmod 777 /media/Server >> /etc/rc.local && chmod 777 /media/Server
