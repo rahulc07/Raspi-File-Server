@@ -21,7 +21,6 @@ case $edrive in
     [Yy]|[Yy])
  echo "What Is the UUID (sudo blkid)"
  read driveuuid
- sudo rm /etc/rc.local
  cd /etc
  read -r -p "What is the Format Of The Drive (ntfs or fat32) " driveformatl
  case $driveformatl in
