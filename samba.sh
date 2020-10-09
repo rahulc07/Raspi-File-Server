@@ -65,8 +65,8 @@ case $user in
  echo "At any time you can add users by typing in cd /home/pi && sudo ./adduser.sh"
  echo "Thank You For Using This Script"
  sudo /etc/init.d/samba restart
- ifconfig | grep inet
- echo "The Third One Down is your Raspis IP it should start with 192.168 or 10.0  ."
+ hostname -I
+ echo "That Is your Ip"
  echo Please Reboot
  ;;
  esac
