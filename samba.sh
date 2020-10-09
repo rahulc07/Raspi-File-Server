@@ -20,6 +20,7 @@ read -r -p "Are You Using A External Drive [Y/n] " edrive
 case $edrive in
     [Yy]|[Yy])
  echo "What Is the UUID (sudo blkid)"
+ sudo blkid
  read driveuuid
  cd /etc
  read -r -p "What is the Format Of The Drive (ntfs or fat32) " driveformatl
